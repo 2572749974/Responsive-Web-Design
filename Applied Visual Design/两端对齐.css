@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+p{  
+    padding: 50px;
+    width: 1000px;
+    border: 12px solid yellow;
+    /*这个属性是两端对齐*/
+    text-align: justify;
+
+}

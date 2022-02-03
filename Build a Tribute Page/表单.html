@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="表单.css">
+    <title>表单</title>
+</head>
+<body>
+    <h1 id="title">A Cat</h1>
+    <p id="description">这是一段简短的描述</p>
+    <form id="survey-form" action="">
+ <labe id="name-label">姓名</label> 
+<input id="name" type="text" required placeholder="请输入姓名">
+ <br><br>
+ <label id="email-label"> 邮箱 </label> 
+  <input id="email" type="email" required placeholder="请输入邮箱"><br><br>
+<label id="number-label">数字</label>
+ <input id=numer" type="number"  placeholder="数字" min="1" max="10"><br><br>
+ <select name="" id="dropdown">
+     <option value="">下拉列表</option>
+     <option value="">11</option>
+     <option value="">11</option>
+ </select>
+ <br><br>
+ <fieldset><!--fieldset 标签包裹整组单选按钮-->
+<label for="a1">
+    <input id="a1" type="radio" name="1hao"> 1hao
+</label>
+<label for="a2">
+    <input id="a2" type="radio" name="1hao"> 2hao
+</label>
+<br><br>
+<label for="a3">
+    <input id="a3" value="111" type="checkbox" name="3hao"> 111
+</label>
+<label for="a4">
+    <input id="a4" value="222" type="checkbox" name="4hao"> 222
+</label>
+<label for="a5">
+    <input id="a5" value="333" type="checkbox" name="5hao"> 333
+</label></fieldset>
+<p><textarea name="" id="" cols="30" rows="10">批注</textarea></p>
+
+<input type="submit">
+    </form>
+</body>
+</html>

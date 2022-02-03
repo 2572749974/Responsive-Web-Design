@@ -1,0 +1,89 @@
+
+    .a1{
+        padding:0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    .a2{
+        width: 50px;
+        height: 50px; 
+         position: relative;
+         margin: 50px auto;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    .a1{
+        animation-name:yuan;  /*动画的名称*/
+        animation-duration:3s; /*动画持续的时间*/
+          animation-iteration-count:infinite;/*无限运行*/
+          animation-fill-mode: forwards;/*保持最后的状态*/
+    }
+    @keyframes yuan{
+        0%{
+            position: relative;
+          left:0%;
+            top: 0%;
+            background-color: blue;
+          
+        }
+        25%{
+            position: relative;
+            left: 25%;
+           top:0px;
+            background-color: red;
+        }
+        50%{
+            position: relative;
+            left: 50%;
+            top: 100px;
+            background-color: blue;
+        }
+        75%{
+            position: relative;
+            left: 25%;
+            top: 200px;
+            background-color: red;
+        }
+        100%{
+            position: relative;
+            left: 0%;
+            top: 0px;
+            background-color: blue;
+        }
+    }
+    .a2{
+        animation-name:yu;  /*动画的名称*/
+        animation-duration:3s; /*动画持续的时间*/
+          animation-iteration-count:infinite;/*无限运行*/
+         /* animation-fill-mode: forwards;/*保持最后的状态*/
+    }
+    @keyframes yu{
+        0%{
+            left: 0%;
+            top: 0px;
+            background-color: blue;
+          
+        }
+        25%{
+            left: 25%;
+            top: 200px;
+            background-color: red;
+        }
+        50%{
+            left: 50%;
+            top: 400px;
+            background-color: blue;
+        }
+        75%{
+            top: 25px;
+            background-color: red;
+        }
+        100%{
+            left: 0px;
+            top:0px;
+            background-color: blue;
+        }
+    }

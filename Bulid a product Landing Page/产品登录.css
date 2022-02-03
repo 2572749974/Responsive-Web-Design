@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.a1{
+    display: flex;
+    justify-content: center;
+}
+#header{
+position: fixed;
+}
+#header-img{
+    max-width: 100%;
+  height: auto;
+
+}
+.nav-link{
+    display:block;
+    margin:30px;
+    padding: 12px;
+    text-decoration: none;
+    color: aqua;
+}
+.nav-link:hover{
+    color:greenyellow;
+}
+#form{
+    position: absolute;
+    top: 550px;
+}
+@media screen and (min-width: 960px){
+            body{
+                background-color: #ff6cc9;
+            }
+        }
+ 		@media screen and (min-width: 540px) {
+            body{
+                background-color: #4FCB82;
+            }
+        }
+
+
+        /*<540px*/
+        @media screen and (max-width: 540px){
+            body {
+                background-color: #222222;
+            }
+        }

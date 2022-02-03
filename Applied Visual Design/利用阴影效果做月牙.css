@@ -1,0 +1,18 @@
+
+*{
+  background: brown;
+  background: linear-gradient(45deg,red,yellow);/*线性渐变*/
+}
+.a1{
+position: absolute;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 200px;
+height: 200px;
+background-color: transparent;/*背景透明*/
+border-radius: 50%;
+box-shadow: 15px 20px 0 0 red;
+}

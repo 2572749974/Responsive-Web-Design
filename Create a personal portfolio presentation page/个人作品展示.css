@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+}
+@media screen and (min-width: 960px){
+    body{
+        background-color: #ff6cc9;
+    }
+}
+ @media screen and (min-width: 540px) {
+    body{
+        background-color: #4FCB82;
+    }
+}
+
+
+/*<540px*/
+@media screen and (max-width: 540px){
+    body {
+        background-color: #222222;
+    }
+}
+#welcome-section{
+    height: 100vh;
+}
+#navbar{
+    position: fixed;
+}

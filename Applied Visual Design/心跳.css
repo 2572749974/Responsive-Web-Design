@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    height: 100vh;
+    display: flex;/*弹性布局*/
+    justify-content: center;/*居中*/
+    align-items:center ;/*居中*/
+  }
+  .heart {
+    width: 200px;
+    height: 200px;
+   
+    background: red;
+    transform: rotate(45deg);/*旋转*/
+    position: relative;/*相对定位*/
+  }
+  .heart::before,.heart::after/*伪函数*/{
+    content: '';
+    width: 200px;
+    height: 200px;
+  border-radius: 50%;/*变成圆形*/
+  background: red;
+  position: absolute;/*绝对定位*/
+  top: 0;
+  left: 0;
+  }
+.heart::before{
+  left: -100px;
+}  
+.heart::after{
+  top: -100px;
+}
+.a2{
+  color: black;
+  position: absolute;
+  top: 550px;
+}
+.heart,.heart::after,.heart::before,.a2{
+  animation-name: xing;
+ animation-duration: 3s;/*动画持续时间*/
+ animation-iteration-count:infinite;/*无限重复*/
+}
+@keyframes xing{
+  0%{
+    background: red;
+  }
+ 
+  50%{
+   
+    background: pink;
+  }
+  100%{
+    background: red;
+  }
+}
